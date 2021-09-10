@@ -1,0 +1,151 @@
+
+/* CABEÇALHO */
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0 auto;
+	background: linear-gradient(#eceff1, #0d47a1);
+}
+
+header {
+	background: red;
+	padding: 80px;
+	padding-top: 50px; 
+}
+
+
+/* CSS DA PÁGINA PRINCIPAL */
+
+.titulo-principal {
+	text-align: center; 
+	font-size: 50px;
+	font-weight: bold;
+	text-shadow: 10px 10px 10px 0 #000000;
+}
+
+.caixa {
+	text-align: center;
+	position: center;
+	width: 940px;
+	margin: 0 auto;
+	border-radius: 20px;
+	box-shadow: 2px 4px 20px 10px #000000;
+}
+
+img {
+	text-align: center;
+}
+
+nav li {
+	text-align: center;
+	display: inline;
+	margin: 0 0 0 45px;
+
+}
+
+nav a {
+	display: inline;
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 30px;
+	text-decoration: none;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+nav a:hover {
+
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+
+
+
+/* CSS DO CONTEÚDO  */
+
+
+.principal {
+	padding: 75px 150px 10px 150px;
+	line-height: 1.5;
+	font-size: 18px;
+}
+
+.titulo-principal {
+	margin: 0 auto;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center; 
+	font-size: 35px;
+	text-shadow: 10px 10px 10px 0 #000000;
+}
+
+.divlista-stanlee {
+	width: 640px;
+	margin: 0 auto;
+	display: inline;
+	padding-left: 40px;
+}
+
+.ullista-stanlee {
+	width: 40%;
+	display: inline;
+	vertical-align: top;
+	
+}
+
+.itens {
+	line-height: 3.5;
+	
+}
+
+.itens:before {
+	content: "🟊";
+}
+
+.imagem-beneficios {
+	width: 100%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imagem-beneficios:hover {
+	opacity: 0.3;
+}
+
+.mapa-morte {
+	text-align: center;
+	width: 100%;
+	margin: 3em auto;
+	border-radius: 60px;
+	box-shadow: 10px 10px 20px 10px #000000;
+}
+
+h3:before {
+	content: "🟊";
+}
+
+h3:after {
+	content: "🟊";
+}
+
+/* RODAPÉ */
+
+footer {
+	width: 100%;
+	text-align: center;
+	background: red;
+	padding: 40px 0;
+}
+
+.copyright {
+	color: black;
+	font-size: 16px;
+	
+}
